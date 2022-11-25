@@ -1,0 +1,23 @@
+{
+    "name": "albe-ui",
+    "version": "1.0.5",
+    "description": "",
+    "main": "index.ts",
+    "scripts": {
+        "build": "vite build"
+    },
+    "files": [
+        "es",
+        "lib"
+    ],
+    "keywords": [
+        "albe-ui",
+        "vue3组件库"
+    ],
+    "author": "wangluo",
+    "license": "MIT",
+    "typings": "lib/index.d.ts",
+    "dependencies": {
+        "@albe-ui/utils": "workspace:^1.0.2"
+    }
+}

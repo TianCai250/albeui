@@ -1,0 +1,4 @@
+# 为了各个项目之间能够互相引用我们要新建一个pnpm-workspace.yaml文件将我们的包关联起来
+packages:
+    - 'packages/**'
+    - 'examples'

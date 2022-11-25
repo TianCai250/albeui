@@ -1,0 +1,13 @@
+{
+  "name": "@albe-ui/utils",
+  "version": "1.0.2",
+  "description": "",
+  "main": "./index.ts",
+  "module": "./index.ts",
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "wangluo",
+  "license": "MIT"
+}
