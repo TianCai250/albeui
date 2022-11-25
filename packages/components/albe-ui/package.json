@@ -18,9 +18,6 @@
         "albe-ui",
         "vue3组件库"
     ],
-    "dependencies": {
-        "@albe-ui/utils": "1.0.2"
-    },
     "sideEffects": [
         "**/*.css"
     ],

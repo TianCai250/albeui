@@ -10,6 +10,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "albe-ui": "workspace:^1.0.0"
+    "albe-ui": "workspace:^1.0.6"
   }
 }

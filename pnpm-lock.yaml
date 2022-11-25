@@ -46,22 +46,16 @@ importers:
 
   examples:
     specifiers:
-      albe-ui: workspace:^1.0.0
+      albe-ui: workspace:^1.0.6
     dependencies:
-      albe-ui: link:../packages/components
+      albe-ui: link:../packages/components/albe-ui
 
   packages/components:
-    specifiers:
-      '@albe-ui/utils': workspace:^1.0.2
-    dependencies:
-      '@albe-ui/utils': link:../utils
+    specifiers: {}
 
   packages/components/albe-ui:
     specifiers:
-      '@albe-ui/utils': 1.0.2
       release-it: ^15.5.0
-    dependencies:
-      '@albe-ui/utils': link:../../utils
     devDependencies:
       release-it: 15.5.0
 
